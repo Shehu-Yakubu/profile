@@ -21,7 +21,7 @@ function Footer() {
                     </a>
                 </li>
                 <li className="footer-li">
-                    <a href="https://www.linkedin.com/in/shehu-yakubu-18">
+                    <a href="https://www.linkedin.com/in/shehu-yakubu-83aa48131/">
                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                     </a>
                 </li>
