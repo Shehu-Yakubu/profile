@@ -1,0 +1,138 @@
+/* GENERAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #008b8b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+/* HEADER COMPONENT STYLE */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background: #013f3f;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  cursor: pointer;
+  background: #011d1d;
+  border: none;
+  border-radius: 60px;
+  padding: 10px;
+  font-family: 'Tilt Warp', cursive;
+}
+
+.nav-ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+.nav-li {
+  margin: 12px;
+  list-style: none;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-li a:hover {
+  background: #011d1d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+/* HERO COMPONENT STYLE */
+.hero {
+  display: grid;
+  margin-top: 110px;
+  margin-left: 25px;
+}
+
+.hero-welcome {
+  margin-bottom: 5px;
+  font-family: 'Tilt Warp', cursive;
+  font-weight: 100;
+}
+
+.hero-profession {
+  margin-bottom: 4px;
+  font-family: 'Tilt Warp', cursive;
+}
+
+.hero-button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  color: #011d1d;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  background: #013f3f;
+  color: #ffffff;
+}
+
+/* CARD COMPONENT STYLE */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-contents {
+  margin-top: 40px;
+}
+
+.card-contents-greetings {
+  font-family: 'Tilt Warp', cursive;
+  font-weight: 100;
+  line-height: 150%;
+}
+
+.card-contents-text {
+  line-height: 125%;
+}
+
+.card-img {
+  border-radius: 30px;
+}
+
+/* FOOTER COMPONENT STYLE */
+.footer {
+  position: absolute;
+  width: 100%;
+  background: #013f3f;
+  color: #ffffff;
+  bottom: 0px;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-li {
+  margin: 12px;
+  list-style: none;
+}
+
+.footer-li a {
+  text-decoration: none;
+  color: #ffffff;
+}
