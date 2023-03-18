@@ -17,6 +17,7 @@ body {
   justify-content: space-between;
   height: 70px;
   background: #013f3f;
+  box-shadow: 0.125rem 0.125rem 1.25rem .1rem rgba(1, 63, 63, 1);
 }
 
 .nav-title {
