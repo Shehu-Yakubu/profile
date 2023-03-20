@@ -1,3 +1,5 @@
+import resume from "../assets/Resume.pdf"
+
 function Header() {
     return (
         <nav className="nav">
@@ -21,7 +23,7 @@ function Header() {
                 </li>
 
                 <li className="nav-li">
-                    <a href="#">Download Resume</a>
+                    <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                 </li>
             </ul>
         </nav>
