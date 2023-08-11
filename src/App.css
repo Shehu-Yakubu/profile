@@ -5,6 +5,7 @@
 }
 
 body {
+  box-sizing: border-box;
   background: #008b8b;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -79,18 +80,19 @@ body {
 }
 
 .hero-button {
-  width: 150px;
+  width: 110px;
   padding: 10px;
   border: none;
-  border-radius: 16px;
-  color: #ffffff;
+  border-radius: 12px;
   cursor: pointer;
   font-weight: bold;
-  text-decoration: none;
 }
 
 .hero-button:hover {
   background: #013f3f;
+}
+
+.hero-button:hover > .hero-link {
   color: #ffffff;
 }
 
