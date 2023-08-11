@@ -15,16 +15,19 @@ function Footer() {
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
                 </li>
+
                 <li className="footer-li">
                     <a href="https://www.twitter.com/shehyak">
                     <FontAwesomeIcon icon={faTwitter} size="2x" />
                     </a>
                 </li>
+
                 <li className="footer-li">
                     <a href="https://www.linkedin.com/in/shehu-yakubu-83aa48131/">
                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                     </a>
                 </li>
+                
                 <li className="footer-li">
                     <a href="https://api.whatsapp.com/send?phone=2349034789591">
                     <FontAwesomeIcon icon={faWhatsapp} size="2x" />

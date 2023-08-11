@@ -5,22 +5,29 @@ function Card() {
         <div className="card">
             <div className="card-contents">
                 <h3 className="card-contents-greetings">Hi there!</h3>
+
                 <p className="card-contents-text">
-                    My name is Shehu Yakubu.
+                    My name is Shehu Yakubu
                 </p>
+
                 <br/>
+
                 <p className="card-contents-text">
                     I am a Junior Frontend Developer with experience in 
-                    <br/>HTML5, CSS, JavaScript, React, Python, and Java.
+                    <br/>HTML, CSS, JavaScript, React JS, Java, and Python
                 </p>
+
                 <br/>
+
                 <p className="card-contents-text">
-                    I have a Bachelor's Degree in Software Engineering.
+                    I have a Diploma and Bachelor's Degree in Software Engineering.
                 </p>
+
                 <br/>
+
                 <p className="card-contents-text">
-                    I am a good listener, payed attention to details, played DLS,
-                    <br/> FIFA, and Spider Solitaire games, and have problem solving skills.
+                    I am a good listener, I play DLS and
+                    <br/> FIFA soccer, Spider Solitaire games, and have a problem solving skills.
                 </p>
             </div>
 
