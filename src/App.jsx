@@ -1,18 +1,32 @@
-import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Card from './components/Card'
-import Footer from './components/Footer'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// COMPONENTS
+import Navbar from './components/Navbar';
+
+// PAGES
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+
+
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Card />
-      <Footer />
-    </div>
-  )
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path='/' exact element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
