@@ -14,7 +14,7 @@ function Card() {
 
                 <p className="card-contents-text">
                     I am a Junior Frontend Developer with experience in 
-                    <br/>HTML, CSS, JavaScript, React JS, Java, and Python
+                    <br/>HTML, CSS, JavaScript, React JS, Tailwind CSS.
                 </p>
 
                 <br/>

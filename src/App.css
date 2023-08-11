@@ -33,6 +33,11 @@ body {
   font-family: 'Tilt Warp', cursive;
 }
 
+.nav-title:hover {
+  background: #008b8b;
+  color: #011d1d;
+}
+
 .nav-ul {
   display: flex;
   margin-right: 20px;
@@ -49,7 +54,7 @@ body {
 }
 
 .nav-li a:hover {
-  background: #011d1d;
+  background: #008b8b;
   color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -64,7 +69,7 @@ body {
 /* HERO COMPONENT STYLE */
 .hero {
   display: grid;
-  margin-top: 110px;
+  margin-top: 85px;
   margin-left: 25px;
 }
 
@@ -86,6 +91,7 @@ body {
   border-radius: 12px;
   cursor: pointer;
   font-weight: bold;
+  margin-top: 5px;
 }
 
 .hero-button:hover {
@@ -126,7 +132,7 @@ body {
   border-radius: 30px;
 }
 
-/* FOOTER COMPONENT STYLE */
+/* SOCIAL MEDIA COMPONENT STYLE */
 .footer {
   position: absolute;
   width: 100%;
@@ -135,18 +141,42 @@ body {
   bottom: 0px;
 }
 
-.footer-ul {
+.social-ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  /* margin-left: 190px; */
+  margin: 8px 0 0 190px;
 }
 
-.footer-li {
+.social-li {
   margin: 12px;
   list-style: none;
 }
 
-.footer-li a {
-  text-decoration: none;
+.social-ul li:hover {
+  background: #011d1d;
   color: #ffffff;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.social-li a {
+  color: #ffffff;
+}
+
+.github {
+  color: #000000;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.linkedin {
+  color: #00a0dc;
+}
+
+.whatsapp {
+  color: #25D366;
 }

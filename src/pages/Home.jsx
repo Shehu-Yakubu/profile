@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import Card from '../components/Card';
+import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -7,7 +8,8 @@ const Home = () => {
         <div className="home">
             <Hero />
             <Card />
-            <Footer />
+            <SocialMedia />
+            {/* <Footer /> */}
         </div>
     )
 }
