@@ -20,14 +20,14 @@ function Card() {
                 <br/>
 
                 <p className="card-contents-text">
-                    I have a Diploma and Bachelor's Degree in Software Engineering.
+                    I have a Bachelor's Degree in Software Engineering
                 </p>
 
                 <br/>
 
                 <p className="card-contents-text">
-                    I am a good listener, I play DLS and
-                    <br/> FIFA soccer, Spider Solitaire games, and have a problem solving skills.
+                    I am a good listener, I play DLS, FIFA, Spider Solitaire,
+                    <br/>and have a problem solving skills
                 </p>
             </div>
 

@@ -55,6 +55,11 @@ body {
   padding: 12px;
 }
 
+.nav-router-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /* HERO COMPONENT STYLE */
 .hero {
   display: grid;
@@ -78,14 +83,20 @@ body {
   padding: 10px;
   border: none;
   border-radius: 16px;
-  color: #011d1d;
+  color: #ffffff;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .hero-button:hover {
   background: #013f3f;
   color: #ffffff;
+}
+
+.hero-link {
+  color: #011d1d;
+  text-decoration: none;
 }
 
 /* CARD COMPONENT STYLE */
